@@ -12,7 +12,7 @@ The code provides quantum circuit constructions for:
 - (3) **Random Pauli error application** to simulate depolarizing noise  
 - (4)/(5) **Syndrome extraction circuits** for X and Z stabilizers  
 - (6) **Correction operations** based on measured syndromes
-    requires (2), (3), (4), (5)
+- requires (2), (3), (4), (5)
 - **Success probability calculation** across various error probabilities
 
 ---
