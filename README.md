@@ -56,7 +56,7 @@ The code provides quantum circuit constructions for:
 7. **Run the success_probabilities cell.**  
    - Calculates and plots success probabilities for various values of \( p \).  
    - Default: `total_trials = 20`, `p_values = [0, 0.04, 0.08, 0.12, 0.16]`.  
-   - Prints each \((p, \text{success probability})\) pair during simulation.  
+   - Prints each (error probability, success probability) pair during simulation.  
    - Produces a final plot showing success/(20 trials) vs error probability.
    - requires (6)
 
