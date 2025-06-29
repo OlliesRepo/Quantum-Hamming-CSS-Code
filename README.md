@@ -16,7 +16,7 @@ The code provides quantum circuit constructions for:
 
 ---
 
-## Benchmark Results
+## Results
 
 - **Code**: [[15,7,3]] CSS Hamming code  
 - **Trials per p-value**: 50  
@@ -59,12 +59,6 @@ The code provides quantum circuit constructions for:
    - Prints each (error probability, success probability) pair during simulation.  
    - Produces a final plot showing success/(20 trials) vs error probability.
    - requires (6)
-
----
-
-## Results
-
-The provided plot was generated using **1000 p-values sampled uniformly between 0 and 1**, each with **50 trials** to compute the corresponding success probability.
 
 ---
 
