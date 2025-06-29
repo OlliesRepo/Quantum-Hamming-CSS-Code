@@ -11,8 +11,8 @@ The code provides quantum circuit constructions for:
 - (2) **Logical zero state derivation and prepartation** of the [[15,7,3]] CSS code  
 - (3) **Random Pauli error application** to simulate depolarizing noise  
 - (4)/(5) **Syndrome extraction circuits** for X and Z stabilizers  
-- (6) **Correction operations** based on measured syndromes
-- requires (2), (3), (4), (5)
+- **Correction operations** based on measured syndromes  
+  - requires (2), (3), (4), (5)
 - **Success probability calculation** across various error probabilities
 
 ---
