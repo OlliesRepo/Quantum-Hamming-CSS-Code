@@ -1,6 +1,6 @@
 # 🧩 CSS Quantum Hamming Code [[15,7,3]] Error Correction in Qiskit
 
-This code demonstrates the CSS implementation of the quantum Hamming error correcting code \([[15,7,3]]\), applying random Pauli errors to each qubit with probability \( 0 \leq p \leq 1 \) and performing the corresponding corrections.
+This code demonstrates the implementation of the quantum Hamming CSS error correcting code \([[15,7,3]]\). Random Pauli errors are applied to each qubit with probability \( 0 \leq p \leq 1 \) and the corresponding corrections are performed.
 
 ---
 
