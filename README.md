@@ -2,6 +2,11 @@
 
 This code demonstrates and implements the quantum Hamming CSS ECC [[15,7,3]]. Random Pauli errors are applied to each qubit with a given probability and the corresponding corrections are performed.
 
+- **Circuit features**:
+  - Logical state preparation  
+  - Pauli noise channel  
+  - Syndrome extraction  
+  - Recovery operation
 ---
 
 ## Overview
@@ -19,14 +24,8 @@ The code provides quantum circuit constructions for:
 ## Results
 
 - **Code**: [[15,7,3]] CSS Hamming code  
-- **Trials per p-value**: 50  
-- **Total sampled p-values**: 1000 (uniform between 0 and 1)  
-- **Gate set used**: {H, CX, X, Z, measurement}  
-- **Circuit features**:
-  - Logical state preparation  
-  - Pauli noise channel  
-  - Syndrome extraction  
-  - Recovery operation
+- **Trials per p-value**: 200  
+- **Total sampled p-values**: 100 (uniform between 0 and 1)  
 
 ---
 
