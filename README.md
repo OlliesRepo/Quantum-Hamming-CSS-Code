@@ -8,8 +8,8 @@ This code demonstrates the implementation of the quantum Hamming CSS error corre
 
 The code provides quantum circuit constructions for:
 
-- (1,2) **Logical zero state derivation and prepartation** of the [[15,7,3]] CSS code  
-- (3) **Random Pauli error application** to simulate depolarizing noise  
+- (1,2) **Logical zero state derivation and preparation** of the [[15,7,3]] CSS code  
+- (3) **Random Pauli error circuit** that applys a uniformly random Pauli error to a single qubit
 - (4)/(5) **Syndrome extraction circuits** for X and Z stabilizers  
 - (6) **Correction operations** based on measured syndromes  
 - (7) **Success probability calculation** across various error probabilities
