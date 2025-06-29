@@ -1,10 +1,10 @@
 # 🧩 CSS Quantum Hamming Code [[15,7,3]] Error Correction in Qiskit
 
-This code demonstrates and implements the quantum Hamming CSS ECC [[15,7,3]]. Random Pauli errors are applied to each qubit with a given probability and the corresponding corrections are performed.
+This code demonstrates and implements the quantum Hamming CSS ECC [[15,7,3]]. Random Pauli errors are applied to each qubit with a given probability and the appropriate corrections are performed.
 
 - **Circuit features**:
   - Logical state preparation  
-  - Pauli noise channel  
+  - Random Pauli Error  
   - Syndrome extraction  
   - Recovery operation
 ---
@@ -14,7 +14,7 @@ This code demonstrates and implements the quantum Hamming CSS ECC [[15,7,3]]. Ra
 The code provides quantum circuit constructions for:
 
 - (1,2) **Logical zero state derivation and preparation** of the [[15,7,3]] CSS code  
-- (3) **Random Pauli error circuit** that applys a uniformly random Pauli error to a single qubit
+- (3) **Random Pauli error circuit** that applys a uniformly random Pauli error to a single qubit (This will be applied to each qubit).
 - (4)/(5) **Syndrome extraction circuits** for X and Z stabilizers  
 - (6) **Correction operations** based on measured syndromes  
 - (7) **Success probability calculation** across various error probabilities
@@ -22,10 +22,10 @@ The code provides quantum circuit constructions for:
 ---
 
 ## Results
-
-- **Code**: [[15,7,3]] CSS Hamming code  
+- **Code**: [[15,7,3]] CSS Hamming code
+  - The code starts in a logical zero state. Then a random Pauli error is applied to each qubit with probability p. The code corrects an error and returns a success if the measured outcome is a component of the logical zero state. For each p-value, the simulation runs 200 times and the success probabllity is plotted.     
 - **Trials per p-value**: 200  
-- **Total sampled p-values**: 100 (uniform between 0 and 1)
+- **Total p-values**: 100 (uniform between 0 and 1)
 - ![Quantum Hamming Code Success Plot](Quantum_Hamming_Success.png)
 
 ---
