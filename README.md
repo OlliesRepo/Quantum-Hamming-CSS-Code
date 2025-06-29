@@ -25,7 +25,8 @@ The code provides quantum circuit constructions for:
 
 - **Code**: [[15,7,3]] CSS Hamming code  
 - **Trials per p-value**: 200  
-- **Total sampled p-values**: 100 (uniform between 0 and 1)  
+- **Total sampled p-values**: 100 (uniform between 0 and 1)
+- ![Quantum Hamming Code Success Plot](Quantum_Hamming_Success.png)
 
 ---
 
