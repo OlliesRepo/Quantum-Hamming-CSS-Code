@@ -6,7 +6,7 @@ This code demonstrates and implements the quantum Hamming CSS ECC [[15,7,3]]. Ra
   - Logical state preparation  
   - Random Pauli Error  
   - Syndrome extraction  
-  - Recovery operation
+  - Error correction
 ---
 
 ## Overview
