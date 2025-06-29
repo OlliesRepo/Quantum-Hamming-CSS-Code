@@ -12,7 +12,6 @@ The code provides quantum circuit constructions for:
 - (3) **Random Pauli error application** to simulate depolarizing noise  
 - (4)/(5) **Syndrome extraction circuits** for X and Z stabilizers  
 - **Correction operations** based on measured syndromes  
-  - requires (2), (3), (4), (5)
 - **Success probability calculation** across various error probabilities
 
 ---
@@ -52,6 +51,7 @@ The code provides quantum circuit constructions for:
 6. **Run the Quantum_Hamming_Circuit cell.**  
    - Prepares the logical zero state, applies errors, extracts syndromes, and performs corrections.  
    - *(Optional)* Uncomment example usage to view the circuit for a chosen p-value (e.g. \( p = 0.2 \)).
+   - requires (2), (3), (4), (5)
 
 7. **Run the success_probabilities cell.**  
    - Calculates and plots success probabilities for various values of \( p \).  
