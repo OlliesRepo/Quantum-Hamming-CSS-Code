@@ -26,7 +26,7 @@ The code provides quantum circuit constructions for:
   - The code starts in a logical zero state. Then a random Pauli error is applied to each qubit with probability p. The code corrects an error and returns a success if the measured outcome is a component of the logical zero state. For each p-value, the simulation runs 200 times and the success probabllity is plotted.     
 - **Trials per p-value**: 200  
 - **Total p-values**: 100 (uniform between 0 and 1)
-- ![Quantum Hamming Code Success Plot](Quantum_Hamming_Success.png)
+- ![Quantum Hamming Code Success Plot](quantum_hamming_success.png)
 
 ---
 
