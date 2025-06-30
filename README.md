@@ -65,5 +65,3 @@ The code provides quantum circuit constructions for:
 ## References
 
 - Nielsen, Michael A., and Isaac L. Chuang. *Quantum Computation and Quantum Information*. 10th Anniversary ed., Cambridge University Press, 2010.
-- Gottesman, Daniel. *Stabilizer Codes and Quantum Error Correction*. Ph.D. thesis, California Institute of Technology, 1997.  
-  [https://arxiv.org/pdf/quant-ph/9705052](https://arxiv.org/pdf/quant-ph/9705052)
